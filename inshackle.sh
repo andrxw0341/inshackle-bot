@@ -36,7 +36,7 @@ printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by c
 
 
 
-login_user() {
+login_user(itzzzz_andrew) {
 
 
 if [[ $user == "" ]]; then
@@ -209,7 +209,7 @@ done
 
 }
 
-total_followers() {
+total_followers(1006) {
 
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Creating followers list for user\e[0m \e[1;77m%s\e[0m\n" $user_account
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Please wait...\e[0m\n"
